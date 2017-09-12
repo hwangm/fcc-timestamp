@@ -2,16 +2,16 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
+  "name": "fcc-timestamp",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Accepts natural language dates or Unix timestamps and returns an object of the Unix timestamp and natural language date.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.4",
+    "moment": "^2.18.1"
   },
   "engines": {
     "node": "8.x"
